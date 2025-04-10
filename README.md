@@ -1,9 +1,4 @@
-I’ll enhance the `README.md` to include a detailed yet concise explanation of the logic, along with the respective code snippets to back it up. I’ll also add a "Dummy Image Section" with placeholder text for the two conditions (green detection and red/blue detection), since I cannot generate or display images directly. The `requirements.txt` will remain the same as provided earlier.
-
-### Updated `README.md`
-
-```markdown
-# Color Detection with LED and Stepper Motor Control
+# **Color Detection with LED and Stepper Motor Control**
 
 This project uses a Raspberry Pi camera to detect colors in real-time and controls an LED and stepper motor via the Adafruit Crickit HAT. It performs the following actions:
 - Green detection: Prints "GREEN DETECTED, IT'S A GO - LET'S RUN THE STEPPER MOTOR", blinks an LED 3 times (0.5s intervals), and simultaneously runs a stepper motor for one revolution.
@@ -115,23 +110,19 @@ for color_name, (lower, upper) in color_ranges.items():
 ## Evidence of Result
 
 ### Condition 1 - Green Being Detected
-A screenshot of the camera feed showing a green colored (Raspeberry Pi itself) object with a rectangle labeled "Green" around it. The console shows "GREEN DETECTED, IT'S A GO - LET'S RUN THE STEPPER MOTOR".
+`A screenshot of the camera feed showing a green colored (Raspeberry Pi itself) object with a rectangle labeled "Green" around it. The console shows "GREEN DETECTED, IT'S A GO - LET'S RUN THE STEPPER MOTOR"`
 
 ![alt text](image.png)
 
 ### Condition 2 - A Color Either Than Green (Red or Blue)
-A screenshot of the camera feed showing a red or blue object with a rectangle labeled "Red" or "Blue" around it. The console shows "SAW A COLOR EITHER THAN GREEN WHICH IS RED OR BLUE".
+`A screenshot of the camera feed showing a red or blue object with a rectangle labeled "Red" or "Blue" around it. The console shows "SAW A COLOR EITHER THAN GREEN WHICH IS RED OR BLUE"`
 
 ![alt text](image-1.png)
 
 ## Notes
-- Adjust HSV ranges in `color_detection.py` if color detection isn’t accurate:
-  - Green: `[(40, 50, 50), (80, 255, 255)]`
-  - Red: `[(0, 120, 70), (10, 255, 255)]`
-  - Blue: `[(100, 150, 0), (140, 255, 255)]`
 - The LED blinking and motor running for green detection run simultaneously, taking ~2.25 seconds (the longer of the two durations).
 
-## `Requirements.txt`
+## Requirements.txt
 
 picamera2==0.3.12
 opencv-python==4.8.1.78
