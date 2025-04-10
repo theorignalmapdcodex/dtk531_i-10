@@ -132,10 +132,10 @@ for color_name, (lower, upper) in color_ranges.items():
 ---
 
 ## References
-- **[Grok AI](https://grok.com/)**: Grok AI supported me in refining my I-8 assignment and color_detection.py code provided by Matt resulting in bringing my logic to life.
+- **[Grok AI](https://grok.com/)**: Grok AI supported me in refining my I-8 assignment and color_detection.py code provided by Prof. Matt Kenney resulting in bringing my logic to life.
 
 ---
 
-📚 **Author of Notebook:** Michael Dankwah Agyeman-Prempeh [MEng. DTI '25]```
+📚 **Author of Notebook:** Michael Dankwah Agyeman-Prempeh [MEng. DTI '25]
 
 ```
