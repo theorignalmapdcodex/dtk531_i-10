@@ -1,0 +1,4 @@
+picamera2
+opencv-python
+adafruit-circuitpython-crickit
+adafruit-circuitpython-motor
