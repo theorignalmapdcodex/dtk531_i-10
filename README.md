@@ -124,11 +124,10 @@ for color_name, (lower, upper) in color_ranges.items():
 
 ## Requirements.txt
 
-picamera2==0.3.12
-opencv-python==4.8.1.78
-numpy==1.26.4
-adafruit-circuitpython-crickit==2.2.1
-adafruit-circuitpython-motor==3.3.0
+- picamera2
+- opencv-python
+- adafruit-circuitpython-crickit
+- adafruit-circuitpython-motor
 
 ---
 
