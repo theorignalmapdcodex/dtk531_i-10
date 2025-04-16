@@ -137,5 +137,3 @@ for color_name, (lower, upper) in color_ranges.items():
 ---
 
 📚 **Author of Notebook:** Michael Dankwah Agyeman-Prempeh [MEng. DTI '25]
-
-```
