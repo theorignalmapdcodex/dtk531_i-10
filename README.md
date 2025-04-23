@@ -112,12 +112,12 @@ for color_name, (lower, upper) in color_ranges.items():
 ### Condition 1 - Green Being Detected
 `A screenshot of the camera feed showing a green colored (Raspeberry Pi itself) object with a rectangle labeled "Green" around it. The console shows "GREEN DETECTED, IT'S A GO - LET'S RUN THE STEPPER MOTOR"`
 
-![alt text](/dtk531_i-10/images/green_detected.png)
+![alt text](/images/green_detected.png)
 
 ### Condition 2 - A Color Either Than Green (Red or Blue)
 `A screenshot of the camera feed showing a red or blue object with a rectangle labeled "Red" or "Blue" around it. The console shows "SAW A COLOR EITHER THAN GREEN WHICH IS RED OR BLUE"`
 
-![alt text](/dtk531_i-10/images/no_green_detected.png)
+![alt text](/images/no_green_detected.png)
 
 ## Notes
 - The LED blinking and motor running for green detection run simultaneously, taking ~2.25 seconds (the longer of the two durations).
